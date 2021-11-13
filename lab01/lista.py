@@ -3,20 +3,20 @@
 def main():
     lista = Lista()
 
-    lista.append(Node(10)) # 10
-    lista.add(Node(15)) # 15 <=> 10
+    lista.append(Node(10)) 
+    lista.add(Node(15))
     print(lista)
 
-    lista.add(Node(100)) # 100 <=> 15 <=> 10
-    lista.append(Node(20)) # 100 <=> 15 <=> 10 <=> 20
+    lista.add(Node(100)) 
+    lista.append(Node(20)) 
     print(lista)
 
-    lista.append(Node(30)) # 100 <=> 15 <=> 10 <=> 20 <=> 30
-    lista.append(Node(40)) # 100 <=> 15 <=> 10 <=> 20 <=> 30 <=> 40
-    lista.append(Node(50)) # 100 <=> 15 <=> 10 <=> 20 <=> 30 <=> 40 <=> 50
+    lista.append(Node(30))
+    lista.append(Node(40))
+    lista.append(Node(50)) 
     print(lista)
 
-    lista.add(Node(99)) # 99 <=> 100 <=> 15 <=> 10 <=> 20 <=> 30 <=> 40 <=> 50
+    lista.add(Node(99)) 
     print(lista)
 
 
